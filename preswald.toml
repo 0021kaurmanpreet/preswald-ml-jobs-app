@@ -1,0 +1,25 @@
+[project]
+title = "Machine Learning Jobs in US"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Preswald Project"
+logo = "images/machine-learning.png"
+favicon = "images/machine-learning.png"
+primaryColor = "#F89613"
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[data.1000_ml_jobs_us]
+type="csv"
+path = "data/1000_ml_jobs_us.csv"
+
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
